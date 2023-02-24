@@ -80,11 +80,13 @@
 
 /* Responsive navigation menu (for mobile devices) */
 @media screen and (max-width: 600px) {
+
   .topnav a,
   .topnav-right {
     float: none;
     display: block;
   }
+
   .dropbtn,
   .dropdown {
     float: none;
@@ -149,11 +151,11 @@
 #header-bar {
   width: 100vw;
   padding: 12px 80px;
-  position: sticky;
+  overflow: hidden;
+  position: fixed;
   top: 0;
-  background-color: aquamarine;
+  background: linear-gradient(#d000ff, #ff03fb);
   box-sizing: border-box;
-  border: 1px solid lightgray;
   box-shadow: 2px 2px lightgray;
 }
 
@@ -183,6 +185,8 @@
   margin-right: 16px;
   font-weight: bold;
   font-size: 24px;
+  text-decoration: none;
+  cursor: pointer;
 }
 
 #search-container {
