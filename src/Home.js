@@ -1,7 +1,13 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import './App.css';
 
 export default function Home() {
+
+  useEffect(() => {
+    var mainDom = document.querySelector('.card-item img');
+    console.log(mainDom);
+  }, []);
+
   return (
     <div id='list-container'>
       <div id='section'>

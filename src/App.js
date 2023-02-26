@@ -8,7 +8,7 @@ import Header from './components/Header';
 import Home from './Home';
 import News from './News';
 import PageNotFound from './PageNotFound';
-
+import Contact from './Contact';
 
 function App() {
 
@@ -20,6 +20,7 @@ function App() {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/news" element={<News />} />
+            <Route path="/contact" element={<Contact />} />
             <Route path="*" element={<PageNotFound />} />
           </Routes>
         </main>

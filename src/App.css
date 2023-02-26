@@ -1,4 +1,8 @@
 /* Add a black background color to the top navigation */
+* {
+  box-sizing: border-box;
+}
+
 .topnav {
   background-color: #333;
   overflow: hidden;
@@ -105,13 +109,6 @@
 @media screen and (max-width: 900px) {
   #news-container {
     grid-template-columns: auto auto;
-  }
-}
-
-
-@media screen and (max-width: 400px) {
-  #news-container {
-    grid-template-columns: auto;
   }
 }
 
