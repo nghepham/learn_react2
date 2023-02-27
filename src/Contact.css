@@ -12,6 +12,7 @@
   padding: 24px;
   grid-area: main;
   height: 60vh;
+  font-size: 18px;
 }
 #left {
   background-color: lightcoral;
@@ -59,5 +60,10 @@
     'right right right right right right'
     'footer footer footer footer footer footer';
   }
+}
+
+.button-style {
+  font-size: large;
+  padding: 8px 16px;
 }
 
